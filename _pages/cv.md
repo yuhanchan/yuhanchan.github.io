@@ -17,15 +17,14 @@ Education
 
 Work experience
 ======
+* Fall 2019 - Now: Research Assistant
+  * University of Michigan
+  * Supervisor: Prof. Trevor Mudge
+
 * Summer 2017: Teaching Assistant
   * Shanghai Jiaotong University
-  * Duties included: 
-  * Supervisor: Professor Git
+  * Supervisor: Prof. Yanfeng Shen
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
@@ -53,7 +52,3 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
