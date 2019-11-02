@@ -10,5 +10,5 @@ redirect_from:
 
 - I received my B.S. in Computer Engineering from University of Michigan and B.S. in Mechanical Engineering from Shanghai Jiaotao University.
 - I'm currently a Ph.D. pre-candidate at the CSE department of the Univerisity of Michigan, advised by Prof. [Trevor Mudge](https://tnm.engin.umich.edu/).
-- My research interests is Computer Architecture and related areas.
+- My research interests are Computer Architecture and related areas.
 
