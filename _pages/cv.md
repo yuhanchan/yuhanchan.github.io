@@ -17,23 +17,13 @@ Education
 
 Work experience
 ======
-* Fall 2019 - Now: Research Assistant
+* Fall 2019 - Current: Research Assistant
   * University of Michigan
   * Supervisor: Prof. Trevor Mudge
 
 * Summer 2017: Teaching Assistant
   * Shanghai Jiaotong University
   * Supervisor: Prof. Yanfeng Shen
-
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
