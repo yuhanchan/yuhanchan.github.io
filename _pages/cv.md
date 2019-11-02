@@ -17,9 +17,9 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
+* Summer 2017: Teaching Assistant
+  * Shanghai Jiaotong University
+  * Duties included: 
   * Supervisor: Professor Git
 
 * Fall 2015: Research Assistant

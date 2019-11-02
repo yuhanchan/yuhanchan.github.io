@@ -1,10 +1,3 @@
----
-title: "None at the moment :("
----
-
-<!-- Template below -->
-
-
 <!-- ---
 title: "Paper Title Number 1"
 collection: publications
