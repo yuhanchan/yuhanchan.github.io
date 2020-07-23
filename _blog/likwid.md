@@ -307,12 +307,12 @@ perf stat -e instructions:u -- ls
 perf has event modifiers, as listed below: [link](https://perf.wiki.kernel.org/index.php/Tutorial)
 
 ```bash
-Modifiers	Description													Example
-u			monitor at priv level 3, 2, 1 (user)						event:u
-k			monitor at priv level 0 (kernel)							event:k
-h			monitor hypervisor events on a virtualization environment	event:h
-H			monitor host machine on a virtualization environment		event:H
-G			monitor guest machine on a virtualization environment		event:G
+Modifiers    Description                                                  Example
+u            monitor at priv level 3, 2, 1 (user)                         event:u
+k            monitor at priv level 0 (kernel)                             event:k
+h            monitor hypervisor events on a virtualization environment    event:h
+H            monitor host machine on a virtualization environment         event:H
+G            monitor guest machine on a virtualization environment        event:G
 ```
 
 <br>
