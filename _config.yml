@@ -11,14 +11,15 @@ title                    : "Yuhan Chen"
 title_separator          : "-"
 name                     : &name "Yuhan Chen"
 description              : &description "personal description"
-url                      : https://yuhanchan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://yuhanchan.github.io  # for deployment
+# url                      : ""                           # for local development
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yuhanchan/yuhanchan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enable" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -82,10 +83,8 @@ analytics:
 author:
   name             : "Yuhan Chen"
   avatar           : "profile.png"
-  bio              : 
-  location         : | 
-                      2260 Hayward St 
-                      Ann Arbor, MI 48109
+  bio              : Ph.D. pre-candidate @ UMich CSE Dept.
+  location         : 2260 Hayward St, Ann Arbor, MI 48109
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -159,7 +158,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->" # anchor, "read more" separator
 incremental: false
 
 
@@ -184,6 +183,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  blog: # anchor, add blog section
     output: true
     permalink: /:collection/:path/
 
@@ -234,6 +236,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: archive
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
@@ -243,9 +253,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate: 10 # amount of posts to show
+# paginate_path: blog/page:num/
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
