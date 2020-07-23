@@ -34,8 +34,20 @@ div.highlighter-rouge, figure.highlight {
 }
 
 .highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
+// .highlight table pre { margin: 0; }
 
+.lineno { 
+  color: #ccc; 
+  display:inline-block; 
+  padding: 0 5px; 
+  border-right:1px solid #ccc;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 /*
    Solarized Light

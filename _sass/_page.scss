@@ -57,29 +57,29 @@
   h1 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
-    font-size: $type-size-2; // anchor, level-1 heading
+    font-size: $type-size-1; // anchor, level-1 heading
   }
 
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
-    font-size: $type-size-3; // anchor, level-2 heading
+    font-size: $type-size-2; // anchor, level-2 heading
   }
 
   h3 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
-    font-size: $type-size-4; // anchor, level-3 heading
+    font-size: $type-size-3; // anchor, level-3 heading
   }
 
   h4 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
-    font-size: $type-size-5; // anchor, level-4 heading
+    font-size: $type-size-4; // anchor, level-4 heading
   }
 
   p, li, dl {
-    font-size: $type-size-5; // anchor, paragraph font size
+    font-size: $type-size-4; // anchor, paragraph font size
   }
 
   /* paragraph indents */
