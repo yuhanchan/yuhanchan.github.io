@@ -2,6 +2,9 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+// anchor, variables in _variables.scss
+// anchor, code size in _base.scss
+
 #main {
   @include container;
   @include clearfix;
@@ -37,6 +40,7 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: $type-size-1; // anchor, page title size
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -45,18 +49,37 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-1;
 }
 
 .page__content {
 
+  h1 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+    font-size: $type-size-2; // anchor, level-1 heading
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    font-size: $type-size-3; // anchor, level-2 heading
+  }
+
+  h3 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+    font-size: $type-size-4; // anchor, level-3 heading
+  }
+
+  h4 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+    font-size: $type-size-5; // anchor, level-4 heading
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: $type-size-5; // anchor, paragraph font size
   }
 
   /* paragraph indents */
@@ -93,7 +116,7 @@
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: $type-size-4;
   }
 
   .small {

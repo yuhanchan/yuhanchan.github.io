@@ -76,7 +76,7 @@ del a {
 
 /* reduce orphans and widows when printing */
 
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+p, blockquote, ul, ol, dl, figure, table, fieldset {
   orphans: 3;
   widows: 3;
 }
@@ -126,10 +126,12 @@ a {
 
 tt, code, kbd, samp, pre {
   font-family: $monospace;
+  font-size: $type-size-2; // anchor, code font-size
 }
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
+  font-size: $type-size-2;
 }
 
 p > code,
