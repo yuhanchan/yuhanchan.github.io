@@ -11,8 +11,8 @@ title                    : "Yuhan Chen"
 title_separator          : "-"
 name                     : &name "Yuhan Chen"
 description              : &description "personal description"
-# url                      : https://yuhanchan.github.io  # for deployment
-url                      : ""                           # for local development
+url                      : https://yuhanchan.github.io  # for deployment
+# url                      : ""                           # for local development
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yuhanchan/yuhanchan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
